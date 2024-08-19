@@ -1,0 +1,15 @@
+{
+  "name": "mermaid-chart",
+  "version": "0.0.1",
+  "description": "A custom element that renders a mermaid chart",
+  "main": "src/mermaid-chart.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Nelson",
+  "license": "MIT",
+  "dependencies": {
+    "lit": "^3.2.0",
+    "mermaid": "^10.9.1"
+  }
+}
