@@ -21,6 +21,9 @@ class MermaidChart extends LitElement {
     if (this.source) {
       const {svg, bindEvents} = await mermaid.render('mermaidChart', this.source);
       this.chartElement.innerHTML = svg;
+    } else if (this.textContent) {
+      const {svg, bindEvents} = await mermaid.render('mermaidChart', this.textContent);
+      this.chartElement.innerHTML = svg;
     }
   }
 
